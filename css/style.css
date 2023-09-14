@@ -166,7 +166,7 @@ color: var(--Pressed-state);
         to bottom, 
         var(--GREY, rgba(46, 47, 66, 0.70)), 
         var(--GREY, rgba(46, 47, 66, 0.70)) ),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
