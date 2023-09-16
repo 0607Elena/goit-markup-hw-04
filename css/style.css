@@ -411,8 +411,8 @@ overflow: hidden;
 
 .our-portfolio-overlay {
 position: absolute;
-background-color: var(--iris);
-color: var(--CLOUD);
+background-color: var(--Primary-Brand);
+color: var(--Light);
 inset: 0;
 transform: translateY(100%);
 
