@@ -78,10 +78,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-
-  position: relative;
-  color: var(--Pressed-state);
-  transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .link-logo .accent {
@@ -98,13 +95,7 @@ ul {
 }
 
 .menu-navigation::after {
-  content: "";
-position: absolute;
-left:0;
-bottom: -1px;
-  height: 4px;
-  border-radius: 2px;
-  background: var(--OCEAN, #404bbf);
+  
 }
 
 .menu-navigation a:active {
@@ -121,7 +112,20 @@ bottom: -1px;
 
 .list-navigation {
   padding: 24px 0;
+  position: relative;
+  color: var(--Pressed-state);
+  transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
+.list-navigation::after {
+  content: "";
+  position: absolute;
+  left:0;
+  bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--OCEAN, #404bbf);
+}
+
 
 .contacts {
   font-style: normal;
