@@ -13,6 +13,10 @@
   --Modal-background: #fcfcfc;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -114,8 +118,8 @@ menu-navigation::after {
 .item-navigation {
   padding: 24px 0;
   position: relative;
-  color: #404bbf; 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  
 }
 .item-navigation::after {
   content: "";
@@ -127,6 +131,10 @@ menu-navigation::after {
     background: var(--OCEAN, #404bbf);
 }
 
+.current {
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .contacts {
   font-style: normal;
@@ -141,7 +149,7 @@ menu-navigation::after {
 }
 
 .mailto {
-  transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mailto:active {
@@ -353,9 +361,6 @@ menu-navigation::after {
 .icon-our-team {
   width: 40px;
   height: 40px;
- 
-  padding: 12px;
-  
 }
 
 .icon-our-team-link {
