@@ -193,6 +193,7 @@ ul {
   background-position: center center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -499,7 +500,7 @@ ul {
 }
 
 .footer-icons {
-  display: inline-flex;
+  display:block;
   align-items: flex-start;
   gap: 16px;
 }
@@ -517,6 +518,7 @@ ul {
 .footer-conteiner {
   display: flex;
   align-items: baseline;
+  
 }
 
 .logo-paragraf {
